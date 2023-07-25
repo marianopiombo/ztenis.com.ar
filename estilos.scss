@@ -1,0 +1,179 @@
+$color-primary: #398e3d;
+$color-secondary: #82c4be;
+$color-bg: #eaf9ea;
+$color-navbar: #a4d5a6;
+$color-jumbotron: #80c684;
+$color-text: #82c4be;
+$color-hover: #000;
+$color-item-border: #a4d5a6;
+$color-container-bg: #e5f2e5;
+$color-nleft-bg: #398e3d;
+$color-contacto-bg: #28a745;
+$color-footer-bg: #218838;
+$color-footer-text: #000;
+$color-cr-bg: #28a745;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: $color-navbar;
+
+    &-toggler i {
+        color: $color-primary;
+    }
+
+    &-link {
+        color: white !important;
+
+        &:hover {
+            color: $color-hover !important;
+        }
+    }
+}
+
+.jumbotron {
+    height: 900px;
+    width: 100%;
+    background-image: url(multimedia/erik-werlin-4gqELewld-A-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+h1 
+p {
+    color: $color-text;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    background-color: $color-jumbotron;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: $color-primary;
+}
+
+.nleft {
+    background-color: $color-nleft-bg;
+    height: 400px;
+    background-image: url(multimedia/RAQUETA.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nright2 {
+    height: 400px;
+    background-image: url(multimedia/raqueta\ wilson.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border: 3px solid $color-item-border;
+    width: 300px;
+
+    &1 {
+        background-image: url(multimedia/item\ 1.jpg);
+    }
+
+    &2 {
+        background-image: url(multimedia/item\ 2.jpg);
+    }
+
+    &3 {
+        background-image: url(multimedia/item\ 4.jpg);
+    }
+
+    &4 {
+        background-image: url(multimedia/item\ 3.jpg);
+    }
+
+    &5 {
+        background-image: url(multimedia/item\ 5.jpg);
+    }
+
+    &6 {
+        background-image: url(multimedia/item6.jpg);
+    }
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+
+    .p1 {
+        background-color: $color-container-bg;
+        font-family: $fuente;
+    }
+
+    .contenido {
+        background-color: $color-container-bg;
+        padding: 20px;
+        height: 100%;
+
+        h3 {
+            font-weight: bold;
+        }
+    }
+
+    .imglog {
+        background-color: $color-container-bg;
+    }
+}
+
+.contacto {
+    margin-top: 50px;
+    margin-top: 0;
+
+    h2 {
+        text-align: center;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .btn-submit {
+        display: block;
+        margin: 20px auto;
+        background-color: $color-contacto-bg;
+        border-color: $color-contacto-bg;
+
+
+        &:hover {
+            background-color: darken($color-contacto-bg, 10%);
+            border-color: darken($color-contacto-bg, 10%);
+        }
+    }
+}
+
+.footer-bg {
+    background-color: $color-footer-bg;
+    padding: 20px 0;
+
+    a {
+        color: $color-footer-text;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+}
+
+.cr-bg {
+    background-color: $color-cr-bg;
+    color: $color-footer-text;
+    padding: 10px 0;
+    font-size: 14px;
+}

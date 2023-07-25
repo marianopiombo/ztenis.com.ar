@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #BFF6D5;
+}
+
+.navbar {
+  background-color: #a4d5a6;
+}
+.navbar-toggler i {
+  color: #398e3d;
+}
+.navbar-link {
+  color: white !important;
+}
+.navbar-link:hover {
+  color: #000 !important;
+}
+
+.jumbotron {
+  height: 900px;
+  width: 100%;
+  background-image: url(multimedia/erik-werlin-4gqELewld-A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+
+h1{
+  font-weight: bolder;
+}
+
+p {
+  color: #398e3d;
+}
+
+.p1{
+  color:white;
+}
+.p2{
+  color: white;
+}
+
+h2 {
+  background-color: #80c684;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #398e3d;
+}
+
+.nleft {
+  background-color: #398e3d;
+  height: 400px;
+  background-image: url(multimedia/RAQUETA.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nright2 {
+  height: 400px;
+  background-image: url(multimedia/raqueta\ wilson.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border: 3px solid #a4d5a6;
+  width: 300px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+.item:hover {
+  filter: grayscale(0%);
+  }
+
+
+.item1 {
+  background-image: url(multimedia/item\ 7.jpg);
+}
+.item2 {
+  background-image: url(multimedia/item\ 2.jpg);
+}
+.item3 {
+  background-image: url(multimedia/item\ 4.jpg);
+}
+.item4 {
+  background-image: url(multimedia/item\ 3.jpg);
+}
+.item5 {
+  background-image: url(multimedia/item\ 8.jpg);
+}
+.item6 {
+  background-image: url(multimedia/item6.jpg);
+}
+
+.btn {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
+.container2 .p1 {
+  background-color: #e5f2e5;
+}
+.container2 .contenido {
+  background-color: #e5f2e5;
+  padding: 20px;
+  height: 100%;
+}
+.container2 .contenido h3 {
+  font-weight: bold;
+}
+.container2 .imglog {
+  background-color: #e5f2e5;
+  margin-bottom: 10px;
+}
+
+.contacto {
+  margin-top: 50px;
+  margin-top: 0;
+}
+.contacto h2 {
+  text-align: center;
+}
+.contacto .form-control:focus {
+  box-shadow: none;
+}
+.contacto .btn-submit {
+  display: block;
+  margin: 20px auto;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.contacto .btn-submit:hover {
+  background-color: #1e7e34;
+  border-color: #1e7e34;
+}
+
+.footer-bg {
+  background-color: #218838;
+  padding: 15px 0;
+}
+.footer-bg a {
+  color: #000;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.cr-bg {
+  background-color: #28a745;
+  color: #000;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.text-white{
+  font-size: 20px;
+}
